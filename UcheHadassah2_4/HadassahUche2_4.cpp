@@ -6,7 +6,10 @@ using namespace std;
 void reverse(int number);
 int main()
 {
-	reverse(12345);
+	int num;
+	cout << "Enter the integer you want to reverse:";
+	cin >> num;
+	reverse(num);
 	return 0;
 }
 void reverse(int number)
